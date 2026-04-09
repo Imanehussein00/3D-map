@@ -1,0 +1,39 @@
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     'C:\\Users\\emanh\\OneDrive\\Desktop\\amarnex-map\\node_modules\\esbuild',
+npm warn cleanup     [Error: UNKNOWN: unknown error, rmdir 'C:\Users\emanh\OneDrive\Desktop\amarnex-map\node_modules\esbuild'] {
+npm warn cleanup       errno: -4094,
+npm warn cleanup       code: 'UNKNOWN',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\emanh\\OneDrive\\Desktop\\amarnex-map\\node_modules\\esbuild'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\emanh\\OneDrive\\Desktop\\amarnex-map\\node_modules\\rollup',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\emanh\OneDrive\Desktop\amarnex-map\node_modules\rollup\dist\shared'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\emanh\\OneDrive\\Desktop\\amarnex-map\\node_modules\\rollup\\dist\\shared'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'C:\\Users\\emanh\\OneDrive\\Desktop\\amarnex-map\\node_modules\\vite',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\emanh\OneDrive\Desktop\amarnex-map\node_modules\vite\dist'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\emanh\\OneDrive\\Desktop\\amarnex-map\\node_modules\\vite\\dist'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code ENOTFOUND
+npm error syscall getaddrinfo
+npm error errno ENOTFOUND
+npm error network request to https://jfrog.booking.com/artifactory/api/npm/npm/postcss/-/postcss-8.5.8.tgz failed, reason: getaddrinfo ENOTFOUND jfrog.booking.com
+npm error network This is a problem related to network connectivity.
+npm error network In most cases you are behind a proxy or have bad network settings.
+npm error network
+npm error network If you are behind a proxy, please make sure that the
+npm error network 'proxy' config is set properly.  See: 'npm help config'
+npm error A complete log of this run can be found in: C:\Users\emanh\AppData\Local\npm-cache\_logs\2026-04-08T21_14_25_074Z-debug-0.log
